@@ -85,7 +85,7 @@ const reviewMenu = `
 
 (function() {
     'use strict';
-    let menu = document.querySelector("div.menu:nth-child(3)");
+    let menu = document.querySelector("div.menu:has(> .dropdown)");
     menu.insertAdjacentHTML('beforeend', reviewMenu);
 
 
